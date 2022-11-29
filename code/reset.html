@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Your Password</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo-color.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="n1">
+
+        <div id="logo">
+            <img src="../images/logo-white.png" alt="ur meal">
+        </div>
+        <!-- <div id="fl"> -->
+            <ul>
+                <li class="l"><a href="food.html">Home</a></li>
+                <li class="l"><a href="food.html">About Us</a></li>
+                <li class="l"><a href="food.html">Contact Us</a></li>
+                <li class="l"><a href="food.html">Services</a></li>
+            </ul>
+        <!-- </div> -->
+    </nav>
+    <section id="home">
+        <div class="headimg">
+            <h1 class="h">Reset Your Password </h1>
+            <img src="../images/woman1.png" alt="">
+        </div>
+        <p>Welcome to Foodiee If you want to <b>reset your password</b> then do the necesssary</p>
+        <hr />
+        <div id="formsection">
+            <form action="">
+                <div class="formgrp">
+                    <label for="UsernameorEmailid">Username</label>
+                    <input type="text" name="UsernameorEmailid" id="UsernameorEmailid"
+                        placeholder="Enter your Email or Username" required>
+                        <button class="btn">Get OTP</button><br>
+                </div>
+                <div class="formgrp">
+                    <label for="UsernameorEmailid">Enter OTP</label>
+                    <input type="password" name="UsernameorEmailid" id="UsernameorEmailid"
+                        placeholder="Enter the 4 digit OTP" pattern=".{4}" required
+                        title="Please enter 4 digit OTP">
+                </div>
+                <div class="formgrp">
+                    <label for="UsernameorEmailid">New Password</label>
+                    <input type="password" name="UsernameorEmailid" id="UsernameorEmailid"
+                        placeholder="Enter your New Password" pattern=".{6,8}" required
+                        title="Please enter the password of length 6 to 8">
+                </div>
+                <div class="formgrp1">
+                    <input type="image" src="../images/submit.png" width="100" height="30" />
+                </div>
+            </form>
+        </div>
+        <div class="switch">
+            <p>Back to Login ?  <a href="Login.html">Login</a></p>
+         </div>
+    </section>
+</body>
+
+</html>
